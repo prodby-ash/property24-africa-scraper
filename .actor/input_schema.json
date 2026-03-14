@@ -1,0 +1,40 @@
+{
+    "title": "Property24 Africa Scraper",
+    "description": "Scrape thousands of property listings from Property24 across Africa in minutes. Select a country and get structured data including price, location, bedrooms, bathrooms, floor size, and more \u2014 ready to export as JSON, CSV, or Excel.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "country": {
+            "title": "Country",
+            "type": "string",
+            "description": "Select which Property24 country site to scrape. Each country runs independently.",
+            "default": "botswana",
+            "enum": [
+                "south_africa",
+                "namibia",
+                "kenya",
+                "ghana",
+                "nigeria",
+                "zambia",
+                "zimbabwe",
+                "botswana",
+                "tanzania",
+                "mozambique"
+            ],
+            "enumTitles": [
+                "South Africa (property24.com)",
+                "Namibia (property24.co.na)",
+                "Kenya (property24.co.ke)",
+                "Ghana (property24.com.gh)",
+                "Nigeria (property24.com.ng)",
+                "Zambia (property24.co.zm)",
+                "Zimbabwe (property24.co.zw)",
+                "Botswana (property24.co.bw)",
+                "Tanzania (property24.co.tz)",
+                "Mozambique (property24.co.mz)"
+            ],
+            "editor": "select"
+        }
+    },
+    "required": []
+}

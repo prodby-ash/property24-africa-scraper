@@ -1,0 +1,21 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "properties": {
+    "listing_url":   { "type": "string", "description": "Full URL to the property listing", "template": "{{listing_url}}" },
+    "title":         { "type": "string", "description": "Listing title", "template": "{{title}}" },
+    "price":         { "type": "string", "description": "Asking price as displayed", "template": "{{price}}" },
+    "suburb":        { "type": "string", "description": "Suburb name", "template": "{{suburb}}" },
+    "city":          { "type": "string", "description": "City name", "template": "{{city}}" },
+    "province":      { "type": "string", "description": "Province or region", "template": "{{province}}" },
+    "property_type": { "type": "string", "description": "Type of property e.g. House, Apartment", "template": "{{property_type}}" },
+    "listing_type":  { "type": "string", "description": "For Sale or For Rent", "template": "{{listing_type}}" },
+    "bedrooms":      { "type": "string", "description": "Number of bedrooms", "template": "{{bedrooms}}" },
+    "bathrooms":     { "type": "string", "description": "Number of bathrooms", "template": "{{bathrooms}}" },
+    "parking":       { "type": "string", "description": "Number of parking spaces", "template": "{{parking}}" },
+    "floor_size":    { "type": "string", "description": "Floor area e.g. 210 m²", "template": "{{floor_size}}" },
+    "erf_size":      { "type": "string", "description": "Land size e.g. 850 m²", "template": "{{erf_size}}" },
+    "image":         { "type": "string", "description": "URL of primary listing image", "template": "{{image}}" },
+    "country":       { "type": "string", "description": "Country key e.g. south_africa", "template": "{{country}}" },
+    "date_scraped":  { "type": "string", "description": "UTC timestamp of scrape", "template": "{{date_scraped}}" }
+  }
+}
